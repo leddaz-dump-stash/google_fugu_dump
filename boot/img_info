@@ -1,0 +1,14 @@
+kernel=kernel
+ramdisk=ramdisk
+second=second.img
+page_size=2048
+kernel_size=5458304
+ramdisk_size=2168809
+second_size=8192
+base_addr=0x10000000
+kernel_offset=0x00008000
+ramdisk_offset=0x01000000
+tags_offset=0x00000100
+cmd_line='pci=noearly vmalloc=256M ptrace.ptrace_can_access=1 earlyprintk=nologger loglevel=8 androidboot.hardware=fugu androidboot.serialno=01234567890123456789 snd_pcm.maximum_substreams=8 intel_soc_pmu.enable_s3=0 loop.max_part=7 buildvariant=user'
+board=""
+format=gzip

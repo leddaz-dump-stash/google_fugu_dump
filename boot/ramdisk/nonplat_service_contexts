@@ -1,0 +1,2 @@
+tv_remote                                 u:object_r:tv_remote_service:s0
+RemoteControlService                      u:object_r:remote_control_service:s0
